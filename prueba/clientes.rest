@@ -1,0 +1,38 @@
+GET http://127.0.0.1:5000/clientess
+
+###
+GET http://127.0.0.1:5000/clientes/:c2
+
+###
+POST http://127.0.0.1:5000/clientes
+Accept: application/json
+Content-Type: application/json
+
+{
+"ci_e": "c15",
+"nombre_e": "carlos",
+"apell_pat_e": "perez",
+"apell_mat_e": "mendez"
+
+}
+
+
+###
+PUT http://127.0.0.1:5000/clientes/:c2
+Accept: application/json
+Content-Type: application/json
+
+{
+"nombre_e": "carlosssssssss",
+"apell_pat_e": "perez",
+"apell_mat_e": "mendez",
+
+}
+
+###
+DELETE  http://127.0.0.1:5000/clientes/:1010
+
+###
+GET https://testinf530.000webhostapp.com/clientes2023
+Accept: application/json
+Content-Type: application/json

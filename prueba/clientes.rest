@@ -1,7 +1,7 @@
 GET http://127.0.0.1:5000/clientess
 
 ###
-GET http://127.0.0.1:5000/clientes/:c2
+GET http://127.0.0.1:5000/clientes/:c1
 
 ###
 POST http://127.0.0.1:5000/clientes
@@ -18,21 +18,52 @@ Content-Type: application/json
 
 
 ###
-PUT http://127.0.0.1:5000/clientes/:c2
+PUT http://127.0.0.1:5000/clientes/:c1
 Accept: application/json
 Content-Type: application/json
 
 {
 "nombre_e": "carlosssssssss",
 "apell_pat_e": "perez",
-"apell_mat_e": "mendez",
+"apell_mat_e": "mendez"
 
 }
 
 ###
-DELETE  http://127.0.0.1:5000/clientes/:1010
+DELETE  http://127.0.0.1:5000/clientes/:c15
 
 ###
 GET https://testinf530.000webhostapp.com/clientes2023
 Accept: application/json
 Content-Type: application/json
+
+----------
+###
+https://maxzanabriasaavedra.pythonanywhere.com/clientes
+
+### INSERTAR
+POST https://maxzanabriasaavedra.pythonanywhere.com/clientes
+Accept: application/json
+Content-Type: application/json
+
+{
+"ci_e": "c22",
+"nombre_e": "orlando",
+"apell_pat_e": "choque",
+"apell_mat_e": "bustillos"
+
+}
+### actualizar
+PUT https://maxzanabriasaavedra.pythonanywhere.com/clientes/:c1
+Accept: application/json
+Content-Type: application/json
+
+{
+"nombre_e": "carlosssssssss",
+"apell_pat_e": "perez",
+"apell_mat_e": "mendez"
+
+}
+
+### eliminar
+DELETE  https://maxzanabriasaavedra.pythonanywhere.com/clientes/:c2
